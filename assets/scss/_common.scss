@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-main;
+    font-size: $font-size;
+}
+
+body {
+    // TODO:
+    // width: 100%;
+    // overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $color-main;
+    transition:  color 0.5s;
+}
+
+.container {
+    display: grid;
+    
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $gap;
+    padding-right: $gap;
+}
